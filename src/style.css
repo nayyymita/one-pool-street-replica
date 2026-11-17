@@ -1,0 +1,115 @@
+html,
+body {
+    margin: 0;
+    width: 100%;
+    height: 100dvh;
+    overflow: hidden;
+}
+
+body {
+    position: relative;
+}
+
+#renderCanvas {
+    width: 100%;
+    height: 100%;
+    display: block;
+    touch-action: none;
+}
+
+/* ---------- TOP BAR ---------- */
+
+#top-bar {
+    position: absolute;
+    top: 16px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: min(900px, 80vw);
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+    background: rgba(255,255,255,0.08);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border: 1px solid rgba(255,255,255,0.15);
+    border-radius: 16px;
+    z-index: 10;
+}
+
+/* ---------- INFO PANEL ---------- */
+
+#info-panel {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    width: 25vw;
+    height: 33vh;
+    min-width: 280px;
+    min-height: 220px;
+    z-index: 100;
+    overflow: hidden;
+
+    /* Glass effect */
+    background: rgba(15, 23, 42, 0.45);
+    backdrop-filter: blur(24px);
+    -webkit-backdrop-filter: blur(24px);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 18px;
+    box-shadow:
+        0 8px 32px rgba(0, 0, 0, 0.30),
+        inset 0 1px 1px rgba(255, 255, 255, 0.10);
+    color: white;
+    font-family:
+        Inter,
+        Segoe UI,
+        Roboto,
+        Arial,
+        sans-serif;
+}
+
+.panel-header {
+    padding: 18px 24px;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.10);
+}
+
+.panel-content {
+    padding: 24px;
+}
+
+.info-row {
+    margin-bottom: 24px;
+}
+
+.label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    color: rgba(255, 255, 255, 0.55);
+}
+
+.value {
+    display: block;
+    font-size: 1.35rem;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.95);
+}
+
+.pill {
+    display: inline-block;
+    margin-top: 8px;
+    padding: 6px 12px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+}
