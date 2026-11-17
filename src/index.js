@@ -1,3 +1,5 @@
+import { registerSW } from "virtual:pwa-register";
+registerSW({ immediate: true });
 import "./style.css";
 import { Engine } from "@babylonjs/core/Engines/engine";
 import { Scene } from "@babylonjs/core/scene";
