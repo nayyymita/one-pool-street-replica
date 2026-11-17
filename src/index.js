@@ -54,8 +54,8 @@ const engine = new Engine(canvas, true);
         createGround: true,
         createSkybox: true,
         enableGroundMirror: true,
-        groundColor: new Color3(15/255, 23/255, 42/255),
-        skyboxColor: new Color3(65/255, 105/255, 180/255),
+        groundColor: new Color3(42/255, 21/255, 32/255),
+        skyboxColor: new Color3(212/255, 118/255, 154/255),
         });
 
         return scene;

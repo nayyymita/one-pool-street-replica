@@ -3,17 +3,17 @@ import { VitePWA } from "vite-plugin-pwa";
 
 export default defineConfig({
     build: { target: "esnext" },
-    base: "/gaugeviz/",
+    base: "/one-pool-street-replica/",
     plugins: [
         VitePWA({
             registerType: "autoUpdate",
 
             manifest: {
-                name: "Gauge Digital Replica",
-                short_name: "GaugeViz",
-                description: "Digital replica of a 3D gauge prototype with sensor data.",
-                theme_color: "#121212",
-                background_color: "#121212",
+                name: "One Pool Street Digital Replica",
+                short_name: "One Pool St",
+                description: "Digital replica of One Pool Street with room metadata.",
+                theme_color: "#2A1520",
+                background_color: "#2A1520",
                 display: "standalone",
 
                 icons: [

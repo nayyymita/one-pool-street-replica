@@ -32,7 +32,7 @@ body {
     color: white;
     font-size: 1.5rem;
     font-weight: 600;
-    background: rgba(255,255,255,0.08);
+    background: rgba(212, 118, 154, 0.12);
     backdrop-filter: blur(15px);
     -webkit-backdrop-filter: blur(15px);
     border: 1px solid rgba(255,255,255,0.15);
@@ -54,7 +54,7 @@ body {
     overflow: hidden;
 
     /* Glass effect */
-    background: rgba(15, 23, 42, 0.45);
+    background: rgba(42, 21, 32, 0.45);
     backdrop-filter: blur(24px);
     -webkit-backdrop-filter: blur(24px);
     border: 1px solid rgba(255, 255, 255, 0.12);

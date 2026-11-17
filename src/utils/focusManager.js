@@ -32,7 +32,7 @@ export function focusMesh(scene, mesh) {
     selectedMesh = mesh;
 
     // Add a blue glow to the newly selected mesh
-    highlightLayer.addMesh(mesh, Color3.Blue());
+    highlightLayer.addMesh(mesh, new Color3(1, 0.25, 0.6));
 
     // Move camera towards the selected object
     zoomToMesh(scene, mesh);
